@@ -22,5 +22,7 @@ public class App
                 .build();
 
         MongoClient mongoClient =  MongoClients.create(settings);
+
+        System.out.println("hey trying to check the cluster connection");
     }
 }
